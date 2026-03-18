@@ -1,0 +1,104 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body { font-family: 'Montserrat', sans-serif; color: #000; }
+
+
+.center-header {
+    max-width: 1440px; 
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.center-content {
+    max-width: 1100px; 
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.hero-page {
+    min-height: 750px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                url('images/Rectangle 15.jpg') no-repeat center/cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.5);
+}
+
+.logo { font-size: 32px; font-weight: 600; }
+
+.header-menu a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 35px;
+    font-size: 16px;
+}
+
+.hero-content {
+    margin-top: 140px;
+}
+
+.hero-title {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    margin-left: 117px;
+}
+
+.hero-text {
+    font-size: 24px; 
+    margin-bottom: 30px; 
+    margin-left: 117px;
+}
+
+.hero-link {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 4px;
+    display: inline-block;
+    margin-left: 117px;
+}
+
+/* --- КАТАЛОГ --- */
+
+.products { padding: 50px 0; margin-left: 120px; margin-right: 120px;}
+
+.section-title { font-size: 48px; margin-bottom: 50px; }
+
+.products-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px 0;
+}
+
+.product-card { width: 31%; }
+
+.product-img { width: 100%; margin-bottom: 15px; }
+
+.product-title { font-size: 24px; margin-bottom: 10px; }
+
+.product-desc { font-size: 14px; color: #888; margin-bottom: 15px; }
+
+.product-price { font-size: 20px; font-weight: 600; }
+
+.footer {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f7f7f7;
+}
+
+.red-footer { color: red; font-weight: 600; }
